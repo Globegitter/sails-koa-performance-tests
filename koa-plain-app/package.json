@@ -1,0 +1,35 @@
+{
+  "name": "koa-plain-app",
+  "version": "1.0.0",
+  "description": "A Koa benchmark app using the yield syntax",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Globegitter/sails-koa-performance-tests"
+  },
+  "keywords": [
+    "koa",
+    "sails",
+    "performance"
+  ],
+  "author": "Markus Padourek <markus.padourek@gmail.com> (http://artificial.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Globegitter/sails-koa-performance-tests/issues"
+  },
+  "homepage": "https://github.com/Globegitter/sails-koa-performance-tests",
+  "dependencies": {
+    "co-body": "^1.1.0",
+    "co-views": "^0.3.0",
+    "ejs": "^2.3.1",
+    "koa": "^0.18.1",
+    "koa-resource-router": "^0.4.0",
+    "koa-session": "^3.1.0",
+    "koala": "^0.9.1",
+    "sails-mongo": "^0.10.5",
+    "waterline": "^0.10.18"
+  }
+}
